@@ -22,7 +22,6 @@
 .feature__card {
     margin-right: 30px;
 
-
 &:last-child {
     margin-right: 0px;
 }
@@ -40,7 +39,7 @@
 
 .feature__title {
     color: var(--primary-text-color);
-    font-family: var(--font-family-base);
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
@@ -53,20 +52,9 @@
 
 .feature__text {
 color: var(--title-text-color);
-font-family: var(--font-family-base);
+font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 24px;
-}
-
-
-.feature__icon {
-display: flex;
-width: 270px;
-height: 120px;
-background-color: var(--secondary-bg-color);
-justify-content: center;
-align-items: center;
-margin-bottom: 30px;
 }

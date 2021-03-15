@@ -1,9 +1,9 @@
-.section--bgc {
+.section--bgc{
     background-color: var(--secondary-bg-color);
     }
 
 .team {
-    font-family: var(--font-family-base);
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -13,10 +13,6 @@
     margin: 0;
     padding-left: 0;
     padding-right: 0;
-}
-
-/* team list */
-
 
 .team__card {
     width: 270px;
@@ -26,6 +22,11 @@
     margin-right: 30px;
     
     /* outline: 2px solid blueviolet; */
+}
+
+.team__card * {
+    /* outline: 1px solid green; */
+}
 }
 
 .team__content {
@@ -41,7 +42,7 @@
 .team__title {
     color: var(--primary-text-color);
     border-color: transparent;
-    font-family: var(--font-family-base);
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -51,7 +52,7 @@
 
 .team__text {
     color: var(--title-text-color);
-    font-family: var(--font-family-base);
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -101,4 +102,5 @@
 &:focus {
     fill: var(--primary-white-color);
 background-color: var(--accent-color);
+}
 }
